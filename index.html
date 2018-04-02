@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title> Portofolio </title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="stylesheet" href="Font/sea-gardens">
+	<link href="http://necolas.github.io/normalize.css/3.0.2/normalize.css" rel='stylesheet'/>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+	<div id="change">
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	</div>
+	
+	<header>
+		<div id="welcome" class="w1" >
+			<h1 class="glitched">How Are YOU??</h1>
+			<span id="welcome2" class="w2">
+				<a href="#">Home</a>
+				<a href="javascript:scrollWin()">Profile</a>
+			</span>
+			<span id="welcome3" class="w2">
+				<a href="javascript:scrollWin2()">Skill</a>
+				<a href="javascript:scrollWin3()">Contact</a>
+			</span>
+			
+		</div>
+		
+		<div class="dropdown" id="menu1">		
+			<button onclick="myFunction()" class="dropbtn" id="dropbtn_">Menu</button>
+			<button onclick="test()" class="dropbtn2" id="dropbtn_2">
+			<span></span>
+			<span></span>
+			<span></span>
+			</button>
+			  <div id="myDropdown" class="dropdown-content animated fadeIn">
+				<a href="#">Home</a>
+				<a href="javascript:scrollWin()">Profile</a>
+				<a href="javascript:scrollWin2()">Skill</a>
+				<a href="javascript:scrollWin3()">Contact</a>
+			  </div>
+		</div>
+			
+	</header>
+	
+	<main>
+		<div id="profile">
+			<div id="title_profile">OUR PROFILE</div>
+			
+			<div id="wrapper1">
+				<div class="accordion animated2 fadeIn2" id="logo1">
+					<a href="#isi"><img alt="" src="Image/23.png" width="200" height="200">
+						<div id="overlay">
+							<div class="text">Personal Identity</div>
+						</div>
+					</a>
+				</div>
+				<div class="isi animated fadeIn31" id="kesatu">
+					<h2 style="text-decoration:underline;">Rendy Apriyando </h2>
+					<br><p style="float:left">Date of Birth: Jakarta/April 5th 1990</p><p>Gender: Male</p>
+					<br><p style="float:left">Religion: Islam</p><p>Weight/Height: 82 kg / 169 cm</p>
+				</div> 
+			</div>	
+					
+			<div id="line">
+				<div id="downline"></div>
+			</div>
+			
+			<div id="wrapper2">
+				<div class="accordion animated2 fadeIn3" id="logo2">
+					<a href="#isi"><img alt="" src="Image/22.png" width="200" height="200">
+						<div id="overlay2">
+							<div class="text2">Job Experienced</div>
+						</div>
+					</a>
+				</div>
+				<div class="isi animated fadeIn21" id="kedua">
+					<h2 style="text-decoration:underline;">Staff IT </h2>
+					<br><p>RS Permata Pamulang</p>
+					<br><p>2016 - present</p>
+				</div> 
+			</div>
+			
+		</div>
+		
+		<div id="parallax">
+		</div>
+		
+		<div id="skill">
+			<div id="skill_wrapper_left">
+				<div id="skill_left">
+					<h2>HTML</h2>
+					<div class="container" id="skill_html">
+					  <div class="skills html" >90%</div>
+					</div>
+
+					<h2>CSS</h2>
+					<div class="container" id="skill_css">
+					  <div class="skills css">80%</div>
+					</div>
+				</div>
+			</div>	
+			
+			<div id="skill_wrapper_right">
+				<div id="skill_right">	
+					<h2>JavaScript</h2>
+					<div class="container" id="skill_js">
+					  <div class="skills js">65%</div>
+					</div>
+
+					<h2>PHP</h2>
+					<div class="container" id="skill_php">
+					  <div class="skills php">60%</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="contact">
+			<div id="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7930.657012448608!2d106.75673113004913!3d-6.351498639232708!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ef05440b4dd9%3A0xb052b58096e95f97!2sKomplek+Bumi+Pelita+Air+Service!5e0!3m2!1sen!2sid!4v1522125275138" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div id="frm">
+				<h1>Feel free to contact us</h1>
+				<form>
+				<fieldset>
+					<fieldset id="fieldset1">
+						<input type="text" required placeholder="Nama*" size="30"> <br> <br>
+						<input type="email" placeholder="Email*" size="30"> <br> <br>
+						<input type="tel" placeholder="No Handphone*"> <br> <br>
+						<textarea placeholder="Alamat*" rows="5"></textarea>
+					</fieldset>
+					<fieldset id="fieldset2">
+						<textarea placeholder="Message*" rows="5"></textarea>
+					</fieldset>
+				</fieldset>
+					
+				</form>
+			</div>
+		
+			<div id="medsos">
+				<a href="https://twitter.com/apriyando" target=_blank><img alt="" src="Image/01.png" width="50" height="50"></a>
+			</div>
+			<div id="medsos2">
+				<a href="mailto:rendyapriyando@gmail.com?Subject=Hello%20again" target="_top"><img alt="" src="Image/09.png" width="50" height="50">
+			</div>
+		</div>
+	</main>
+	
+	<footer>
+		<p>Copyright &copy 2018</p>
+	</footer>
+	
+</body>
+
+<script>
+	function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+	}
+	
+	function test() {
+	document.getElementById("myDropdown").classList.toggle("show2");
+	}
+			
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+	  if (!event.target.matches('.dropbtn')) {
+
+		var dropdowns = document.getElementsByClassName("dropdown-content");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+		  var openDropdown = dropdowns[i];
+		  if (openDropdown.classList.contains('show')) {
+			openDropdown.classList.remove('show');
+		  }
+		}
+	  }
+	}
+	
+	function scrollWin() {
+    window.scrollTo(0, 600);
+}
+
+	function scrollWin2() {
+    window.scrollTo(0, 1200);
+}
+
+	function scrollWin3() {
+    window.scrollTo(0, 1600);
+}
+	
+	
+// When the user scrolls down 20px from the top of the document, show the button	
+	window.onscroll = function() {scrollFunction()};
+	
+	
+	var welcome = document.getElementById("welcome");
+	var welcome2 = document.getElementById("welcome2");
+	var welcome3 = document.getElementById("welcome3");
+	var menu1 = document.getElementById("menu1");
+	var sticky = welcome.offsetTop;
+
+	function scrollFunction() {
+    if (document.body.scrollTop > 70 && document.body.scrollTop < 700 || document.documentElement.scrollTop > 70 && document.documentElement.scrollTop < 700){
+		document.getElementById("myBtn").style.display = "block";
+		document.getElementById("logo1").style.display = "block";
+		document.getElementById("logo2").style.display = "block";
+		document.getElementById("downline").style.display = "block";
+	}else if (document.body.scrollTop > 700 && document.body.scrollTop < 1400 || document.documentElement.scrollTop > 700 && document.documentElement.scrollTop < 1400){
+		document.getElementById("myBtn").style.display = "block";
+		document.getElementById("skill_html").style.display = "block";
+		document.getElementById("skill_css").style.display = "block";
+		document.getElementById("skill_js").style.display = "block";
+		document.getElementById("skill_php").style.display = "block";
+	}else if (document.body.scrollTop > 1400 || document.documentElement.scrollTop > 1400){
+		document.getElementById("myBtn").style.display = "block";
+		document.getElementById("skill_html").style.display = "block";
+		document.getElementById("skill_css").style.display = "block";
+		document.getElementById("skill_js").style.display = "block";
+		document.getElementById("skill_php").style.display = "block";
+		document.getElementById("medsos").style.left = "1150px";
+		document.getElementById("medsos2").style.left = "1250px";
+	}else{
+        document.getElementById("myBtn").style.display = "none";
+		
+    }
+	
+	var mq = window.matchMedia( "(max-width: 1011px)" );
+	if (mq.matches) {
+			if (window.pageYOffset >= sticky){
+			welcome.classList.remove("w1");
+			welcome.classList.add("sticky");
+			menu1.classList.add("dropdown2");
+			menu1.classList.remove("dropdown");
+		}else{
+			welcome.classList.remove("sticky");
+			welcome.classList.add("w1");
+			menu1.classList.remove("dropdown2");
+			menu1.classList.add("dropdown");
+		}
+	} else {
+		 if (window.pageYOffset >= sticky) {
+			welcome.classList.remove("w1");
+			welcome2.classList.remove("w2");
+			welcome3.classList.remove("w2");
+			welcome.classList.add("sticky");
+			welcome2.classList.add("sticky2");
+			welcome3.classList.add("sticky2");
+			document.getElementById("menu1").style.display = "none";
+		}else {
+			document.getElementById("menu1").style.display = "block";
+			welcome.classList.remove("sticky");
+			welcome.classList.add("w1");
+			welcome2.classList.add("w2");
+			welcome3.classList.add("w2");
+		}
+	}
+}
+
+// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+	
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var isi = this.nextElementSibling;
+        if (isi.style.display === "block") {
+            isi.style.display = "none";
+        } else {
+            isi.style.display = "block";
+        }
+    });
+	
+}
+
+
+
+	
+</script>
+
+</html>
