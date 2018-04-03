@@ -871,6 +871,7 @@ footer p{
 	
 	.sticky h1{
 		padding:6%;
+		word-wrap:none;
 		font-size:1.4em;
 	}
 	
