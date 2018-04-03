@@ -709,7 +709,7 @@ iframe{
 
 #medsos2{
 	position:absolute;
-	top:750px;
+	top:75%;
 	left:-10%;
 	transition: all 900ms ease;
 }
