@@ -817,6 +817,10 @@ footer p{
 		padding:10px;
 	}
 	
+	#myBtn{
+		display:none;
+	}
+	
 	#title_profile{
 		top:10 px;
 		right:0;
